@@ -1,4 +1,5 @@
 <?php
+namespace Cullenio;
 
 class SteamAuth {
 

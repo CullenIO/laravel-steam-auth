@@ -1,5 +1,5 @@
 <?php
-namespace SteamAuth\Providers;
+namespace Cullenio\SteamAuth\Providers;
 
 class SteamAuthServiceProvider extends ServiceProvider {
 

@@ -20,6 +20,7 @@ php artisan vendor:publish
 
 ##Routes
 Login: `/login`
+
 Login Done: `/login/done`
 
 ##User

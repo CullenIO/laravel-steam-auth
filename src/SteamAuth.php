@@ -9,7 +9,7 @@ class SteamAuth {
 
     public function __construct() {
         $this->openid = new \LightOpenID();
-        $this->openid->realm = \Config::get('steam_auth.realm'));
+        $this->openid->realm = \Config::get('steam_auth.realm');
         $this->openid->returnUrl = $this->openid->realm . "/openid/done";
 
         $this->user = $this->getUser();

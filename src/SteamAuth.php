@@ -8,7 +8,7 @@ class SteamAuth {
     public $authUrl;
 
     public function __construct() {
-        $this->openid = new \LightOpenID();
+        $this->openid = new \LightOpenID(\Config::get('steam_auth.domain'));
         $this->openid->realm = \Config::get('steam_auth.realm');
         $this->openid->returnUrl = $this->openid->realm . "/openid/done";
 
